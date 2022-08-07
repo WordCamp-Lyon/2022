@@ -9,14 +9,16 @@
 
 .entry-content {
   @include font-body();
+  padding-top: 200px;
 }
 
 .post-inner {
   padding-top: 0;
 }
 
-.entry-content .wp-block-cover.alignfull:first-child {
-  margin-top: -101px;
+.post-inner .entry-content > .wp-block-cover.alignwide:first-child,
+.post-inner .entry-content > .wp-block-cover.alignfull:first-child {
+  margin-top: -200px;
   padding: 0;
   padding-top: 140px;
 
