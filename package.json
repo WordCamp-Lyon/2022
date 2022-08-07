@@ -6,6 +6,7 @@
   "scripts": {
     "start": "wp-scripts start --webpack-no-externals",
     "build": "wp-scripts build --webpack-no-externals",
+    "build": "wp-scripts build --webpack-no-externals",
     "format": "wp-scripts format",
     "lint:css": "wp-scripts lint-style",
     "test": "echo \"Error: no test specified\" && exit 1"

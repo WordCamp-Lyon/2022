@@ -1,0 +1,36 @@
+@mixin font-body(){
+  font-family: 'Poppins', sans-serif;
+}
+
+@mixin font-headings(){
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+@mixin small(){
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@mixin hn-line-height(){
+  line-height: 1.275;
+}
+
+@mixin h1(){
+  font-size: 40px;
+  @include hn-line-height();
+}
+
+@mixin h2(){
+  font-size: 32px;
+  @include hn-line-height();
+}
+
+@mixin h3(){
+  font-size: 22px;
+  @include hn-line-height();
+}
+
+@mixin h4(){
+  font-size: 18px;
+  line-height: 1.5;
+}

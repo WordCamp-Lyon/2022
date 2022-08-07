@@ -17,10 +17,12 @@ function wordcamp_lyon_add_styles(){
         $theme->parent()->get('Version')
     );
 
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Space+Grotesk:wght@500&display=swap');
+
     // Child styles.
     wp_enqueue_style(
         'child-style',
         get_stylesheet_directory_uri() . '/build/style-index.css',
-        array( $parenthandle )
+        array( $parenthandle, 'google-fonts' )
     );
 }

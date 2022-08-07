@@ -1,0 +1,78 @@
+@import "../commons/colors";
+@import "../mixins/typography";
+
+.wp-block-post-template {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, min-content);
+  gap: 4rem;
+}
+
+.wp-block-post {
+  position: relative;
+  margin: 0;
+  grid-column: 3 / -1;
+
+  a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  &-featured-image {
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 32px;
+    display: none;
+  }
+
+  &-date {
+    @include small();
+    color: $red;
+  }
+
+  &-title {
+    @include h4();
+    margin: 0 !important;
+    margin-top: 6px;
+
+    a {
+      color: $hard-gray;
+      text-decoration: none;
+    }
+  }
+
+  &-excerpt {
+    @include small();
+    margin-top: 16px;
+    display: none;
+  }
+}
+
+.wp-block-post:nth-child(1),
+.wp-block-post:nth-child(2) {
+  grid-row: 1 / -1;
+
+  .wp-block-post-excerpt,
+  .wp-block-post-featured-image {
+    display: block;
+  }
+}
+
+.wp-block-post:nth-child(1){
+  grid-column: 1 / 2;
+}
+
+.wp-block-post:nth-child(2){
+  grid-column: 2 / 3;
+}
+
+
+// Need to override Twenty Twenty styles.
+.entry-content .wp-block-post-title {
+  @include font-body();
+}

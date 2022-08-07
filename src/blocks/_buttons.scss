@@ -1,0 +1,17 @@
+@import '../commons/colors';
+@import '../mixins/button';
+
+.wp-block-button__link {
+  @include button();
+}
+
+.is-style-outline {
+
+  &.wp-block-button {
+    color: $red;
+  }
+
+  .wp-block-button__link {
+    border: 1px solid $red;
+  }
+}

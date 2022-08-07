@@ -1,0 +1,27 @@
+@import '../commons/colors';
+@import '../mixins/button';
+@import '../mixins/typography';
+
+.primary-menu {
+  display: flex;
+  align-items: center;
+
+  & > li {
+    margin: 0;
+  }
+
+  a {
+    @include small();
+    color: $hard-gray !important;
+    padding: 16px 20px;
+  }
+
+  .wp-block-button {
+    margin-left: 20px;
+
+    a {
+      @include button();
+      color: $white !important;
+    }
+  }
+}

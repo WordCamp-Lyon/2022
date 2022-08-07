@@ -1,0 +1,26 @@
+
+.wp-block-column > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.wp-block-column > *:last-child {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.wp-block-column p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+// Force padding and border-radius when column has background.
+.has-background.wp-block-column {
+  padding: 48px 56px;
+  border-radius: 4px;
+}
+
+// On white background add box-shadow.
+.has-white-background-color.wp-block-column {
+  box-shadow: 0 0 44px rgba(0, 0, 0, 0.05);
+}
