@@ -20,7 +20,7 @@ function wordcamp_lyon_add_styles(){
     // Child styles.
     wp_enqueue_style(
         'child-style',
-        get_stylesheet_uri(),
+        get_stylesheet_directory_uri() . '/build/style-index.css',
         array( $parenthandle )
     );
 }
