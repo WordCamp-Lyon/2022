@@ -1,6 +1,10 @@
 @import "../mixins/colors";
 @import "../mixins/button";
 
+.wp-block-navigation a {
+  @include small();
+}
+
 .wp-block-navigation-link.wp-block-button a {
   @include button();
 }

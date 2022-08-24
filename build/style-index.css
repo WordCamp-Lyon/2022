@@ -145,6 +145,11 @@ h4 {
   padding-right: var(--wp--custom--spacing--outer);
 }
 
+.wp-block-navigation a {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 .wp-block-navigation-link.wp-block-button a {
   font-size: 14px;
   line-height: 1.5;
