@@ -318,6 +318,8 @@ header.wp-block-template-part .wp-block-group,
 
 footer.wp-block-template-part {
   font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
   margin-top: 80px;
 }
 footer.wp-block-template-part .alignfull .alignfull {

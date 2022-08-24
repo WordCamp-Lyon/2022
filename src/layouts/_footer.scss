@@ -3,6 +3,7 @@
 
 footer.wp-block-template-part {
   @include font-body();
+  @include small();
   margin-top: 80px;
 
   .alignfull .alignfull {
