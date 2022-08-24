@@ -1,3 +1,5 @@
+@import "media-query";
+
 @mixin font-body(){
   font-family: 'Poppins', sans-serif;
 }
@@ -16,21 +18,55 @@
 }
 
 @mixin h1(){
-  font-size: 40px;
+  font-size: 34px;
   @include hn-line-height();
+
+  @include breakpoint($desktop){
+    font-size: 44px;
+  }
 }
 
 @mixin h2(){
-  font-size: 32px;
+  font-size: 26px;
   @include hn-line-height();
+
+  @include breakpoint($desktop){
+    font-size: 32px;
+  }
 }
 
 @mixin h3(){
-  font-size: 22px;
+  font-size: 20px;
   @include hn-line-height();
+
+  @include breakpoint($desktop){
+    font-size: 24px;
+  }
 }
 
 @mixin h4(){
   font-size: 18px;
   line-height: 1.5;
+
+  @include breakpoint($desktop){
+    font-size: 20px;
+  }
+}
+
+@mixin h5(){
+  font-size: 16px;
+  line-height: 1.5;
+
+  @include breakpoint($desktop){
+    font-size: 18px;
+  }
+}
+
+@mixin h6(){
+  font-size: 14px;
+  line-height: 1.5;
+
+  @include breakpoint($desktop){
+    font-size: 16px;
+  }
 }

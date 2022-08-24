@@ -1,0 +1,31 @@
+$mobile: 0px !default;
+$tablet: 768px !default;
+$desktop: 1024px !default;
+$container: 1280px !default;
+$ref: 1440px !default;
+$tv: 1920px !default;
+
+$breakpoints: (
+        mobile: $mobile,
+        tablet: $tablet,
+        desktop: $desktop,
+        container: $container,
+        ref: $ref,
+        tv: $tv
+) !default;
+
+@mixin breakpoint($size){
+  $value: $size;
+
+  @if( type_of($size) == "string"){
+    $value: map-get($breakpoints, $size);
+  }
+
+  @if( $value > 0 ){
+    @media screen and (min-width: $value){
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}

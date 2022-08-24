@@ -1,7 +1,10 @@
-@import '../commons/colors';
+@import '../mixins/colors';
 @import '../mixins/button';
 @import '../mixins/typography';
 
+/**
+ * Only for Twenty Twenty theme.
+ */
 .primary-menu {
   display: flex;
   align-items: center;

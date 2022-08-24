@@ -1,8 +1,16 @@
-@import 'colors';
+@import '../mixins/colors';
+@import '../mixins/typography';
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
+  @include font-body();
   font-size: 18px;
   line-height: 1.9;
   background-color: $white;
   color: $hard-gray;
+  min-height: 100vh;
+  overflow-x: hidden;
 }

@@ -1,7 +1,7 @@
-@import '../commons/colors';
+@import '../mixins/colors';
 @import '../mixins/button';
 
-.wp-block-button__link {
+.wp-block-button a {
   @include button();
 }
 
@@ -11,7 +11,7 @@
     color: $red;
   }
 
-  .wp-block-button__link {
+  a {
     border: 1px solid $red;
   }
 }

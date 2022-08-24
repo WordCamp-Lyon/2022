@@ -1,6 +1,22 @@
 @import 'admin-bar';
 @import 'header';
-@import 'menu';
+@import 'footer';
+@import 'first-cover';
+
+.wp-site-blocks {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  & > * + * {
+    margin-top: 0;
+  }
+
+  main {
+    flex: 1;
+  }
+}
 
 // Hide default page title in content.
 .entry-header {
@@ -12,43 +28,3 @@
   padding-top: 200px;
 }
 
-.post-inner {
-  padding-top: 0;
-}
-
-.post-inner .entry-content > .wp-block-cover.alignwide:first-child,
-.post-inner .entry-content > .wp-block-cover.alignfull:first-child {
-  margin-top: -200px;
-  padding: 0;
-  padding-top: 140px;
-
-  & > .wp-block-cover__inner-container {
-    padding-bottom: 0;
-    padding-top: 0;
-  }
-
-  .wp-block-column .wp-block-cover {
-    margin: 0;
-    max-width: none;
-
-    img,
-    &__background {
-      border-top-left-radius: 4px;
-      width: 57vw;
-    }
-
-    &__background {
-      mix-blend-mode: multiply;
-      opacity: 1;
-    }
-
-    .has-accent-background-color {
-      background-color: $red;
-
-      & ~ .wp-block-cover__inner-container {
-        color: $white;
-        padding-right: 0;
-      }
-    }
-  }
-}

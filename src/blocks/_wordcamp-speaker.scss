@@ -1,0 +1,18 @@
+.wordcamp-speaker {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.wordcamp-speakers__title {
+  @include h3();
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.wordcamp-image__avatar-container {
+  order: 0;
+  margin-bottom: 16px;
+}

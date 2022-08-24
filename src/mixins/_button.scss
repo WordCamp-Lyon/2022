@@ -1,9 +1,10 @@
-@import '../commons/colors';
+@import 'colors';
 @import 'typography';
 
 @mixin button(){
   @include small();
   background-color: $red;
+  color: $white;
   padding: 16px 32px;
   border-radius: 4px;
   text-transform: none;

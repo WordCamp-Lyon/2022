@@ -1,6 +1,28 @@
-@import '../commons/colors';
+@import '../mixins/grid';
+@import '../mixins/colors';
 
 // To override Twenty Twenty styles.
-.wp-block-cover .wp-block-cover__inner-container{
-  padding: 40px 80px;
+.wp-block-cover {
+
+  &__background {
+
+  }
+
+  .has-vivid-red-background-color,
+  .has-accent-background-color {
+    mix-blend-mode: multiply;
+    opacity: 1;
+    background-color: $red;
+
+    & ~ .wp-block-cover__inner-container {
+      color: $white;
+      padding-right: 0;
+    }
+  }
+
+  .wp-block-cover__inner-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @include grid();
+  }
 }

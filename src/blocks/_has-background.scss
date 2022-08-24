@@ -1,0 +1,17 @@
+@import "../mixins/colors";
+
+.has-background {
+
+  .is-style-outline {
+    color: $white;
+
+    a {
+      border-color: $white;
+    }
+  }
+}
+
+.has-foreground-background-color {
+  background: #1B1B1B;
+  color: $white;
+}

@@ -1,0 +1,11 @@
+@import "../mixins/colors";
+@import "../mixins/button";
+
+.wp-block-navigation-link.wp-block-button a {
+  @include button();
+}
+
+.current-menu-item .wp-block-navigation-item__content {
+  font-weight: bold;
+  color: $red;
+}

@@ -1,0 +1,28 @@
+@import '../mixins/grid';
+@import '../mixins/typography';
+
+footer.wp-block-template-part {
+  @include font-body();
+  margin-top: 80px;
+
+  .alignfull .alignfull {
+    @include grid();
+  }
+
+
+  .has-background {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="493" height="316" viewBox="0 0 493 316" fill="none"> <path fill-rule="evenodd" clip-rule="evenodd" d="M316.3 120.933V313.74C316.3 315.159 314.585 315.87 313.581 314.866L1.43414 2.71946C0.430586 1.71591 1.14134 0 2.56057 0H199.213H314.707H511.36C512.24 0 512.953 0.713221 512.953 1.59302V313.74C512.953 315.159 511.237 315.87 510.233 314.866L316.3 120.933Z" fill="white" fill-opacity="0.1"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+    //@include grid();
+
+    & + * {
+      padding-top: 16px;
+      padding-bottom: 16px;
+      //@include grid();
+    }
+  }
+}

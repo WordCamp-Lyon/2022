@@ -1,0 +1,7 @@
+@import 'colors';
+@import 'typography';
+
+@mixin grid(){
+  padding-left: var(--wp--custom--spacing--outer);
+  padding-right: var(--wp--custom--spacing--outer);
+}
