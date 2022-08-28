@@ -166,7 +166,7 @@ input[type=submit][disabled] {
   background-color: #1B1B1B;
 }
 
-.wp-block-button .wp-block-button-link {
+.wp-block-button .wp-block-button__link {
   font-size: 14px;
   line-height: 1.5;
   background-color: #FF252C;
@@ -180,10 +180,10 @@ input[type=submit][disabled] {
   box-shadow: 0 0 0 0 #FFFFFF, 0 0 0 0 #FF252C;
   transition: box-shadow 0.4s ease-in-out;
 }
-.wp-block-button .wp-block-button-link:hover, .wp-block-button .wp-block-button-link:focus-visible {
+.wp-block-button .wp-block-button__link:hover, .wp-block-button .wp-block-button__link:focus-visible {
   box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #FF252C;
 }
-.wp-block-button .wp-block-button-link[disabled] {
+.wp-block-button .wp-block-button__link[disabled] {
   cursor: not-allowed;
   opacity: 0.2;
   background-color: #1B1B1B;
@@ -192,7 +192,7 @@ input[type=submit][disabled] {
 .is-style-outline.wp-block-button {
   color: #FF252C;
 }
-.is-style-outline .wp-block-button-link {
+.is-style-outline .wp-block-button__link {
   border: 1px solid #FF252C;
 }
 
