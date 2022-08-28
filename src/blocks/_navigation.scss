@@ -9,7 +9,7 @@
   @include button();
 }
 
-.current-menu-item .wp-block-navigation-item__content {
+.current-menu-item > .wp-block-navigation-item__content {
   font-weight: bold;
   color: $red;
 }

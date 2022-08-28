@@ -273,7 +273,7 @@ input[type=submit][disabled] {
   background-color: #1B1B1B;
 }
 
-.current-menu-item .wp-block-navigation-item__content {
+.current-menu-item > .wp-block-navigation-item__content {
   font-weight: bold;
   color: #FF252C;
 }
