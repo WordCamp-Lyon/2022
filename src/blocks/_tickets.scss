@@ -17,9 +17,12 @@
 
     thead {
       background-color: #F4F4F4;
-      @include font-headings();
-      font-weight: 300;
       padding: 16px 24px;
+
+      th {
+        @include font-headings();
+        font-weight: 300;
+      }
     }
 
     th,
@@ -29,17 +32,17 @@
     }
   }
 
-  .tix-column{
-    &-description{
+  .tix-column {
+    &-description {
       text-align: left;
     }
 
-    &-price{
+    &-price {
       text-align: right;
     }
 
     &-quantity,
-    &-remaining{
+    &-remaining {
       text-align: center;
     }
   }
