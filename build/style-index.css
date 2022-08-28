@@ -293,9 +293,42 @@ h4 {
 #tix {
   padding-top: 0;
 }
+#tix input[type=submit] {
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #FF252C;
+  color: #FFFFFF;
+  padding: 16px 32px;
+  border-radius: 4px;
+  text-transform: none;
+  font-weight: bold;
+}
 
 .tix-tickets-list {
   width: 100%;
+  border-collapse: collapse;
+}
+.tix-tickets-list thead {
+  background-color: #F4F4F4;
+  font-family: "Space Grotesk", sans-serif;
+  padding: 16px 24px;
+}
+.tix-tickets-list tr {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tix-tickets-title {
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 1024px) {
+  .tix-tickets-title {
+    font-size: 18px;
+  }
+}
+.tix-tickets-excerpt {
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .admin-bar header.wp-block-template-part,
