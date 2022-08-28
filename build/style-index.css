@@ -401,6 +401,13 @@ input[type=submit][disabled] {
 .wordcamp-image__avatar-container {
   order: -1;
 }
+.wordcamp-image__avatar-container img {
+  aspect-ratio: 1/1;
+  height: auto;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 #tix {
   padding-top: 0;
