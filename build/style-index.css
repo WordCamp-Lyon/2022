@@ -319,6 +319,15 @@ h4 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.tix-tickets .tix-column-description {
+  text-align: left;
+}
+.tix-tickets .tix-column-price {
+  text-align: right;
+}
+.tix-tickets .tix-column-quantity, .tix-tickets .tix-column-remaining {
+  text-align: center;
+}
 .tix-tickets-title {
   font-size: 16px;
   line-height: 1.5;
