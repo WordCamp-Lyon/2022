@@ -87,6 +87,7 @@ h4 {
   border-radius: 4px;
   text-transform: none;
   font-weight: bold;
+  border: none;
 }
 
 .is-style-outline.wp-block-button {
@@ -159,6 +160,7 @@ h4 {
   border-radius: 4px;
   text-transform: none;
   font-weight: bold;
+  border: none;
 }
 
 .current-menu-item .wp-block-navigation-item__content {
@@ -302,6 +304,7 @@ h4 {
   border-radius: 4px;
   text-transform: none;
   font-weight: bold;
+  border: none;
 }
 
 .tix-tickets-list {
@@ -310,11 +313,11 @@ h4 {
 }
 .tix-tickets-list thead {
   background-color: #F4F4F4;
-  padding: 16px 24px;
 }
 .tix-tickets-list thead th {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 300;
+  padding: 16px 24px;
 }
 .tix-tickets-list th,
 .tix-tickets-list td {
@@ -325,10 +328,7 @@ h4 {
 .tix-column-description {
   text-align: left;
 }
-.tix-column-price {
-  text-align: right;
-}
-.tix-column-quantity, .tix-column-remaining {
+.tix-column-price, .tix-column-quantity, .tix-column-remaining {
   text-align: center;
 }
 
@@ -343,7 +343,23 @@ h4 {
 }
 .tix-ticket-excerpt {
   font-size: 14px;
-  line-height: 1.5;
+}
+@media screen and (min-width: 1024px) {
+  .tix-ticket-excerpt {
+    font-size: 16px;
+  }
+}
+
+select {
+  font-size: 14px;
+  padding: 13px 19px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+@media screen and (min-width: 1024px) {
+  select {
+    font-size: 16px;
+  }
 }
 
 .admin-bar header.wp-block-template-part,
