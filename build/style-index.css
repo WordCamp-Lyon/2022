@@ -449,6 +449,15 @@ input[type=submit][disabled] {
   }
 }
 
+.wordcamp-sponsors img {
+  height: auto;
+}
+.wordcamp-sponsors .wordcamp-post-list__post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .admin-bar header.wp-block-template-part,
 .admin-bar #site-header {
   top: 32px;
