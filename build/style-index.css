@@ -321,25 +321,27 @@ h4 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.tix-tickets .tix-column-description {
+
+.tix-column-description {
   text-align: left;
 }
-.tix-tickets .tix-column-price {
+.tix-column-price {
   text-align: right;
 }
-.tix-tickets .tix-column-quantity, .tix-tickets .tix-column-remaining {
+.tix-column-quantity, .tix-column-remaining {
   text-align: center;
 }
-.tix-tickets-title {
+
+.tix-ticket-title {
   font-size: 16px;
   line-height: 1.5;
 }
 @media screen and (min-width: 1024px) {
-  .tix-tickets-title {
+  .tix-ticket-title {
     font-size: 18px;
   }
 }
-.tix-tickets-excerpt {
+.tix-ticket-excerpt {
   font-size: 14px;
   line-height: 1.5;
 }

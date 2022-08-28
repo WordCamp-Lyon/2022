@@ -31,21 +31,25 @@
       padding-bottom: 30px;
     }
   }
+}
 
-  .tix-column {
-    &-description {
-      text-align: left;
-    }
 
-    &-price {
-      text-align: right;
-    }
-
-    &-quantity,
-    &-remaining {
-      text-align: center;
-    }
+.tix-column {
+  &-description {
+    text-align: left;
   }
+
+  &-price {
+    text-align: right;
+  }
+
+  &-quantity,
+  &-remaining {
+    text-align: center;
+  }
+}
+
+.tix-ticket {
 
   &-title {
     @include h5();
