@@ -1,0 +1,44 @@
+@import "../mixins/typography";
+@import "../mixins/button";
+
+label {
+  @include h6();
+  text-transform: none;
+
+  & + input {
+    margin-top: 16px;
+  }
+}
+
+input[type="checkbox"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="file"],
+input[type="image"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="radio"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+textarea,
+select {
+  @include p();
+  padding: 13px 19px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+  min-height: 200px;
+}
+
+input[type="submit"] {
+  @include button();
+}

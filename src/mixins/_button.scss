@@ -1,13 +1,27 @@
 @import 'colors';
 @import 'typography';
 
-@mixin button(){
+@mixin button() {
   @include small();
   background-color: $red;
   color: $white;
   padding: 16px 32px;
   border-radius: 4px;
   text-transform: none;
-  font-weight: bold;
+  font-weight: 700;
   border: none;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 $white, 0 0 0 0 $red;
+
+
+  &:hover,
+  &:focus-visible{
+    box-shadow: 0 0 0 2px $white, 0 0 0 4px $red;
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+    opacity: .2;
+    background-color: $hard-gray;
+  }
 }

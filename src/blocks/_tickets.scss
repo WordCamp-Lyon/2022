@@ -3,10 +3,6 @@
 
 #tix {
   padding-top: 0;
-
-  input[type="submit"] {
-    @include button();
-  }
 }
 
 .tix-tickets {
@@ -55,11 +51,4 @@
   &-excerpt {
     @include p();
   }
-}
-
-select{
-  @include p();
-  padding: 13px 19px;
-  border: 1px solid #CCCCCC;
-  border-radius: 4px;
 }
