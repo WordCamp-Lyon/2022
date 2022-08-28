@@ -18,10 +18,12 @@
     thead {
       background-color: #F4F4F4;
       @include font-headings();
+      font-weight: 300;
       padding: 16px 24px;
     }
 
-    tr {
+    th,
+    td {
       padding-top: 30px;
       padding-bottom: 30px;
     }
@@ -31,7 +33,7 @@
     @include h5();
   }
 
-  &-excerpt{
+  &-excerpt {
     @include small();
   }
 }

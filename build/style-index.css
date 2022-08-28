@@ -311,9 +311,11 @@ h4 {
 .tix-tickets-list thead {
   background-color: #F4F4F4;
   font-family: "Space Grotesk", sans-serif;
+  font-weight: 300;
   padding: 16px 24px;
 }
-.tix-tickets-list tr {
+.tix-tickets-list th,
+.tix-tickets-list td {
   padding-top: 30px;
   padding-bottom: 30px;
 }
