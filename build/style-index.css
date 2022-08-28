@@ -290,6 +290,14 @@ h4 {
   order: -1;
 }
 
+#tix {
+  padding-top: 0;
+}
+
+.tix-tickets-list {
+  width: 100%;
+}
+
 .admin-bar header.wp-block-template-part,
 .admin-bar #site-header {
   top: 32px;

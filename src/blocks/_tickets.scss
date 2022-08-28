@@ -1,0 +1,36 @@
+@import "../mixins/typography";
+@import "../mixins/button";
+
+#tix {
+  padding-top: 0;
+
+  input[type="submit"] {
+    @include button();
+  }
+}
+
+.tix-tickets {
+  &-list {
+    width: 100%;
+    border-collapse: collapse;
+
+    thead {
+      background-color: #F4F4F4;
+      @include font-headings();
+      padding: 16px 24px;
+    }
+
+    tr {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
+
+  &-title {
+    @include h5();
+  }
+
+  &-excerpt{
+    @include small();
+  }
+}
