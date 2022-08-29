@@ -1,0 +1,7 @@
+.wp-block-media-text {
+
+  * + &.alignfull,
+  &.alignfull + * {
+    margin-top: 80px;
+  }
+}

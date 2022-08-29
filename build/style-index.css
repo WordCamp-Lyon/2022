@@ -248,6 +248,10 @@ input[type=submit][disabled] {
   background-color: #FFFFFF;
 }
 
+* + .wp-block-media-text.alignfull, .wp-block-media-text.alignfull + * {
+  margin-top: 80px;
+}
+
 .wp-block-navigation a {
   font-size: 14px;
   line-height: 1.5;
