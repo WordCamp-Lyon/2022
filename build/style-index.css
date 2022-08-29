@@ -508,7 +508,7 @@ input[type=submit][disabled] {
   margin-right: auto;
 }
 * + .wp-block-comments {
-  margin-top: 60px;
+  margin-top: 60px !important;
   border-top: 1px solid #CCCCCC;
   padding-top: 60px;
 }
@@ -516,11 +516,17 @@ input[type=submit][disabled] {
 .comment-reply-title {
   font-size: 18px;
   line-height: 1.5;
+  margin-top: 0;
 }
 @media screen and (min-width: 1024px) {
   .comment-reply-title {
     font-size: 20px;
   }
+}
+
+.logged-in-as {
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .admin-bar header.wp-block-template-part,
