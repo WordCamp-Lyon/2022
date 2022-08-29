@@ -155,7 +155,7 @@ input[type=submit] {
   border: none;
   cursor: pointer;
   box-shadow: 0 0 0 0 #FFFFFF, 0 0 0 0 #FF252C;
-  transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
 }
 input[type=submit]:hover, input[type=submit]:focus-visible {
   box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #FF252C;
@@ -178,7 +178,7 @@ input[type=submit][disabled] {
   border: none;
   cursor: pointer;
   box-shadow: 0 0 0 0 #FFFFFF, 0 0 0 0 #FF252C;
-  transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
 }
 .wp-block-button .wp-block-button__link:hover, .wp-block-button .wp-block-button__link:focus-visible {
   box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #FF252C;
@@ -193,6 +193,7 @@ input[type=submit][disabled] {
   color: #FF252C;
 }
 .is-style-outline .wp-block-button__link {
+  color: #FF252C;
   border: 1px solid #FF252C;
 }
 
@@ -269,7 +270,7 @@ input[type=submit][disabled] {
   border: none;
   cursor: pointer;
   box-shadow: 0 0 0 0 #FFFFFF, 0 0 0 0 #FF252C;
-  transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
 }
 .wp-block-navigation-link.wp-block-button a:hover, .wp-block-navigation-link.wp-block-button a:focus-visible {
   box-shadow: 0 0 0 2px #FFFFFF, 0 0 0 4px #FF252C;
