@@ -1,4 +1,5 @@
-
+main.wp-block-group > .wp-block-cover.alignwide:first-child,
+main.wp-block-group > .wp-block-cover.alignfull:first-child,
 .entry-content > .wp-block-cover.alignwide:first-child,
 .entry-content > .wp-block-cover.alignfull:first-child {
   margin-top: -200px;
@@ -54,5 +55,15 @@
         padding-right: 0;
       }
     }
+  }
+}
+
+// Single layout or Archive layout.
+main.wp-block-group {
+  padding-top: 200px;
+
+  .wp-block-cover.alignwide:first-child,
+  .wp-block-cover.alignfull:first-child {
+    padding-top: 180px;
   }
 }
