@@ -454,25 +454,6 @@ input[type=submit][disabled] {
   margin-top: 0;
 }
 
-.wp-block-post:nth-child(1),
-.wp-block-post:nth-child(2) {
-  grid-row: 1/-1;
-}
-.wp-block-post:nth-child(1) .wp-block-post-excerpt,
-.wp-block-post:nth-child(1) .wp-block-post-featured-image,
-.wp-block-post:nth-child(2) .wp-block-post-excerpt,
-.wp-block-post:nth-child(2) .wp-block-post-featured-image {
-  display: block;
-}
-
-.wp-block-post:nth-child(1) {
-  grid-column: 1/2;
-}
-
-.wp-block-post:nth-child(2) {
-  grid-column: 2/3;
-}
-
 .entry-content .wp-block-post-title {
   font-family: "Poppins", sans-serif;
 }
@@ -689,6 +670,23 @@ main.wp-block-group .wp-block-cover.alignfull:first-child {
 }
 .single .wp-block-post-content {
   padding-top: 300px;
+}
+
+.home .wp-block-post:nth-child(1),
+.home .wp-block-post:nth-child(2) {
+  grid-row: 1/-1;
+}
+.home .wp-block-post:nth-child(1) .wp-block-post-excerpt,
+.home .wp-block-post:nth-child(1) .wp-block-post-featured-image,
+.home .wp-block-post:nth-child(2) .wp-block-post-excerpt,
+.home .wp-block-post:nth-child(2) .wp-block-post-featured-image {
+  display: block;
+}
+.home .wp-block-post:nth-child(1) {
+  grid-column: 1/2;
+}
+.home .wp-block-post:nth-child(2) {
+  grid-column: 2/3;
 }
 
 .wp-site-blocks {
