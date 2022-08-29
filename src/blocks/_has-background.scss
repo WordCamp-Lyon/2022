@@ -4,9 +4,25 @@
   background-color: $hard-gray;
   color: $white;
 
+  .wp-block-button__link{
+    box-shadow: 0 0 0 0 $hard-gray, 0 0 0 0 $red;
+
+    &:hover,
+    &:focus-visible{
+      box-shadow: 0 0 0 2px $hard-gray, 0 0 0 4px $red;
+    }
+  }
+
   .is-style-outline .wp-block-button__link {
     color: $white !important;
     border-color: $white !important;
+
+    box-shadow: 0 0 0 0 $hard-gray, 0 0 0 0 $white;
+
+    &:hover,
+    &:focus-visible{
+      box-shadow: 0 0 0 2px $hard-gray, 0 0 0 4px $white;
+    }
   }
 }
 
