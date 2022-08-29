@@ -669,6 +669,9 @@ main.wp-block-group .wp-block-cover.alignfull:first-child {
 .single .wp-block-post-content {
   padding-top: 300px;
 }
+.single section.wp-block-group + footer.wp-block-template-part {
+  margin-top: 0;
+}
 
 .home .wp-block-post-excerpt,
 .home .wp-block-post-featured-image {

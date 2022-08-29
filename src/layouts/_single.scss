@@ -8,4 +8,9 @@
   .wp-block-post-content {
     padding-top: 300px;
   }
+
+  // Remove footer spacing.
+  section.wp-block-group + footer.wp-block-template-part {
+    margin-top: 0;
+  }
 }
