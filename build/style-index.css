@@ -539,6 +539,10 @@ input[type=submit][disabled] {
   line-height: 1.5;
 }
 
+.comment-subscription-form {
+  margin: 0;
+}
+
 .admin-bar header.wp-block-template-part,
 .admin-bar #site-header {
   top: 32px;
