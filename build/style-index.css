@@ -502,6 +502,10 @@ input[type=submit][disabled] {
   }
 }
 
+.wp-block-comments {
+  max-width: 940px;
+}
+
 .admin-bar header.wp-block-template-part,
 .admin-bar #site-header {
   top: 32px;
