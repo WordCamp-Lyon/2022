@@ -1,19 +1,13 @@
 @import "../mixins/colors";
 
-.has-background {
-
-  .is-style-outline {
-    color: $white;
-
-    a {
-      border-color: $white;
-    }
-  }
-}
-
 .has-foreground-background-color {
-  background-color: #1B1B1B;
+  background-color: $hard-gray;
   color: $white;
+
+  .is-style-outline .wp-block-button__link {
+    color: $white;
+    border-color: $white;
+  }
 }
 
 .has-secondary-background-color {

@@ -283,16 +283,13 @@ input[type=submit][disabled] {
   color: #FF252C;
 }
 
-.has-background .is-style-outline {
-  color: #FFFFFF;
-}
-.has-background .is-style-outline a {
-  border-color: #FFFFFF;
-}
-
 .has-foreground-background-color {
   background-color: #1B1B1B;
   color: #FFFFFF;
+}
+.has-foreground-background-color .is-style-outline .wp-block-button__link {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
 }
 
 .has-secondary-background-color {
