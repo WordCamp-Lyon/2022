@@ -674,6 +674,9 @@ main.wp-block-group > .wp-block-cover.alignfull:first-child .wp-block-column .wp
 main.wp-block-group {
   padding-top: 200px;
 }
+main.wp-block-group > .wp-block-post-content {
+  margin-top: -200px;
+}
 main.wp-block-group .wp-block-cover.alignwide:first-child,
 main.wp-block-group .wp-block-cover.alignfull:first-child {
   padding-top: 180px;
