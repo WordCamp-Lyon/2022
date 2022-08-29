@@ -1,0 +1,15 @@
+.single {
+
+  .wp-site-blocks > .wp-block-cover:first-child {
+    padding-top: 160px; // Header height.
+  }
+
+  .wp-block-post-featured-image {
+    margin-top: 80px;
+    margin-bottom: -300px;
+  }
+
+  .wp-block-post-content {
+    padding-top: 300px;
+  }
+}

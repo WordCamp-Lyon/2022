@@ -25,4 +25,10 @@
     padding-bottom: 40px;
     @include grid();
   }
+
+  &.is-light {
+    .wp-block-cover__background {
+      background-color: $white;
+    }
+  }
 }

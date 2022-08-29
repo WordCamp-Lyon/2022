@@ -1,0 +1,6 @@
+@import '../mixins/typography';
+
+.wp-block-post-title {
+  @include font-headings();
+  @include h1();
+}

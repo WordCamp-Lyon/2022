@@ -24,9 +24,7 @@
     z-index: 1;
   }
 
-  &-featured-image {
-    border-radius: 4px;
-    overflow: hidden;
+  & &-featured-image {
     margin-top: 0;
     margin-bottom: 32px;
     display: none;
@@ -37,7 +35,7 @@
     color: $red;
   }
 
-  &-title {
+  & &-title {
     @include h4();
     margin: 0 !important;
     margin-top: 6px;

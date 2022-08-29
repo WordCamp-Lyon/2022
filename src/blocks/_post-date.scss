@@ -1,0 +1,10 @@
+@import "../mixins/typography";
+
+.wp-block-post-date {
+  @include font-headings();
+  @include small();
+
+  & + .wp-block-post-title {
+    margin-top: 12px;
+  }
+}
