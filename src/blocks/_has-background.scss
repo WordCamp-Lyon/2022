@@ -12,6 +12,10 @@
 }
 
 .has-foreground-background-color {
-  background: #1B1B1B;
+  background-color: #1B1B1B;
   color: $white;
+}
+
+.has-secondary-background-color {
+  background-color: rgba($red, .1);
 }
