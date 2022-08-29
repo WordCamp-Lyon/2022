@@ -27,13 +27,12 @@
   & &-featured-image {
     margin-top: 0;
     margin-bottom: 32px;
-    display: none;
   }
 
-  &-date {
-    @include small();
-    color: $red;
-  }
+  //&-date {
+  //  @include small();
+  //  color: $red;
+  //}
 
   & &-title {
     @include h4();
@@ -49,7 +48,6 @@
   &-excerpt {
     @include small();
     margin-top: 16px;
-    display: none;
   }
 }
 

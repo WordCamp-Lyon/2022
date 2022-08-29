@@ -421,12 +421,6 @@ input[type=submit][disabled] {
 .wp-block-post .wp-block-post-featured-image {
   margin-top: 0;
   margin-bottom: 32px;
-  display: none;
-}
-.wp-block-post-date {
-  font-size: 14px;
-  line-height: 1.5;
-  color: #FF252C;
 }
 .wp-block-post .wp-block-post-title {
   font-size: 18px;
@@ -447,7 +441,6 @@ input[type=submit][disabled] {
   font-size: 14px;
   line-height: 1.5;
   margin-top: 16px;
-  display: none;
 }
 
 .wp-block-post + .wp-block-post {
@@ -672,6 +665,10 @@ main.wp-block-group .wp-block-cover.alignfull:first-child {
   padding-top: 300px;
 }
 
+.home .wp-block-post-excerpt,
+.home .wp-block-post-featured-image {
+  display: none;
+}
 .home .wp-block-post:nth-child(1),
 .home .wp-block-post:nth-child(2) {
   grid-row: 1/-1;
