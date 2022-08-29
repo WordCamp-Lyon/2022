@@ -288,8 +288,8 @@ input[type=submit][disabled] {
   color: #FFFFFF;
 }
 .has-foreground-background-color .is-style-outline .wp-block-button__link {
-  color: #FFFFFF;
-  border-color: #FFFFFF;
+  color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
 }
 
 .has-secondary-background-color {

@@ -5,8 +5,8 @@
   color: $white;
 
   .is-style-outline .wp-block-button__link {
-    color: $white;
-    border-color: $white;
+    color: $white !important;
+    border-color: $white !important;
   }
 }
 
