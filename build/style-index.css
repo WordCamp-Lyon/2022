@@ -467,6 +467,7 @@ input[type=submit][disabled] {
   font-family: "Space Grotesk", sans-serif;
   font-size: 14px;
   line-height: 1.5;
+  color: #FF252C;
 }
 .wp-block-post-date + .wp-block-post-title {
   margin-top: 12px;

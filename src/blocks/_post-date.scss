@@ -1,8 +1,10 @@
 @import "../mixins/typography";
+@import "../mixins/colors";
 
 .wp-block-post-date {
   @include font-headings();
   @include small();
+  color: $red;
 
   & + .wp-block-post-title {
     margin-top: 12px;
