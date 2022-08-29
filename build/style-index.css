@@ -662,10 +662,7 @@ main.wp-block-group .wp-block-cover.alignfull:first-child {
   padding-top: 180px;
 }
 
-.single .wp-site-blocks > .wp-block-cover:first-child {
-  padding-top: 160px;
-}
-.single .wp-site-blocks > .wp-block-cover:first-child .wp-block-post-featured-image {
+.single .wp-block-post-title + .wp-block-post-featured-image {
   margin-top: 80px;
   margin-bottom: -300px;
 }
