@@ -513,6 +513,16 @@ input[type=submit][disabled] {
   padding-top: 60px;
 }
 
+.comment-reply-title {
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 1024px) {
+  .comment-reply-title {
+    font-size: 20px;
+  }
+}
+
 .admin-bar header.wp-block-template-part,
 .admin-bar #site-header {
   top: 32px;
