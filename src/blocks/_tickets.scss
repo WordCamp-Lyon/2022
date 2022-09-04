@@ -1,6 +1,17 @@
 @import "../mixins/typography";
 @import "../mixins/button";
 
+#tix-errors, #tix-notices{
+  margin-bottom: 60px;
+}
+
+.tix-error{
+  background-color: rgba($red, .1);
+  border: none;
+  margin: 0;
+  padding: 16px 24px;
+}
+
 #tix {
   padding-top: 0;
 

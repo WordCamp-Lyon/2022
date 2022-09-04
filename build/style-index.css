@@ -346,6 +346,17 @@ input[type=submit][disabled] {
      object-fit: cover;
 }
 
+#tix-errors, #tix-notices {
+  margin-bottom: 60px;
+}
+
+.tix-error {
+  background-color: rgba(255, 37, 44, 0.1);
+  border: none;
+  margin: 0;
+  padding: 16px 24px;
+}
+
 #tix {
   padding-top: 0;
 }
