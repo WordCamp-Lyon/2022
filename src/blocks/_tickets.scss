@@ -1,18 +1,18 @@
 @import "../mixins/typography";
 @import "../mixins/button";
 
-#tix-errors, #tix-notices{
+#tix-errors, #tix-notices {
   margin-bottom: 60px;
 }
 
-.tix-error{
+.tix-error {
   background-color: rgba($red, .1);
   border: none;
   margin: 0;
   padding: 16px 24px;
 }
 
-.tix-payment-method{
+.tix-payment-method {
   display: none;
 }
 
@@ -57,6 +57,9 @@ tr[class^="tix-row"] td {
   }
 }
 
+.tix-row-total {
+  text-align: center;
+}
 
 .tix-column {
   &-description {

@@ -403,6 +403,10 @@ tr[class^=tix-row] td {
   padding-bottom: 30px;
 }
 
+.tix-row-total {
+  text-align: center;
+}
+
 .tix-column-description {
   text-align: left;
 }
