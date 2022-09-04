@@ -349,6 +349,17 @@ input[type=submit][disabled] {
 #tix {
   padding-top: 0;
 }
+#tix .tix-submit .tix-checkout-button {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-transform: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  margin-top: 0;
+  float: none;
+  display: inline-block;
+}
 
 .tix-order-summary,
 .tix-tickets-list {
