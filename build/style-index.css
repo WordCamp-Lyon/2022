@@ -406,7 +406,7 @@ tr[class^=tix-row] td {
 .tix-column-description {
   text-align: left;
 }
-.tix-column-price, .tix-column-quantity, .tix-column-remaining {
+.tix-column-per-ticket, .tix-column-price, .tix-column-quantity, .tix-column-remaining {
   text-align: center;
 }
 
