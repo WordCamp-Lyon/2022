@@ -5,27 +5,25 @@
   padding-top: 0;
 }
 
-.tix-tickets {
+.tix-order-summary,
+.tix-tickets-list {
+  width: 100%;
+  border-collapse: collapse;
 
-  &-list {
-    width: 100%;
-    border-collapse: collapse;
+  thead {
+    background-color: #F4F4F4;
 
-    thead {
-      background-color: #F4F4F4;
-
-      th {
-        @include font-headings();
-        font-weight: 300;
-        padding: 16px 24px;
-      }
+    th {
+      @include font-headings();
+      font-weight: 300;
+      padding: 16px 24px;
     }
+  }
 
-    th,
-    td {
-      padding-top: 30px;
-      padding-bottom: 30px;
-    }
+  th,
+  td {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 

@@ -350,18 +350,23 @@ input[type=submit][disabled] {
   padding-top: 0;
 }
 
+.tix-order-summary,
 .tix-tickets-list {
   width: 100%;
   border-collapse: collapse;
 }
+.tix-order-summary thead,
 .tix-tickets-list thead {
   background-color: #F4F4F4;
 }
+.tix-order-summary thead th,
 .tix-tickets-list thead th {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 300;
   padding: 16px 24px;
 }
+.tix-order-summary th,
+.tix-order-summary td,
 .tix-tickets-list th,
 .tix-tickets-list td {
   padding-top: 30px;
