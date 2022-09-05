@@ -382,17 +382,20 @@ tr[class^=tix-row] td {
 
 .tix-ticket-form,
 .tix-order-summary,
+.tix-attendee-form,
 .tix-tickets-list {
   width: 100%;
   border-collapse: collapse;
 }
 .tix-ticket-form thead,
 .tix-order-summary thead,
+.tix-attendee-form thead,
 .tix-tickets-list thead {
   background-color: #F4F4F4;
 }
 .tix-ticket-form thead th,
 .tix-order-summary thead th,
+.tix-attendee-form thead th,
 .tix-tickets-list thead th {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 300;
@@ -402,6 +405,8 @@ tr[class^=tix-row] td {
 .tix-ticket-form td,
 .tix-order-summary th,
 .tix-order-summary td,
+.tix-attendee-form th,
+.tix-attendee-form td,
 .tix-tickets-list th,
 .tix-tickets-list td {
   padding-top: 30px;
