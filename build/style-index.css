@@ -380,21 +380,26 @@ tr[class^=tix-row] td {
   display: inline-block;
 }
 
+.tix-ticket-form,
 .tix-order-summary,
 .tix-tickets-list {
   width: 100%;
   border-collapse: collapse;
 }
+.tix-ticket-form thead,
 .tix-order-summary thead,
 .tix-tickets-list thead {
   background-color: #F4F4F4;
 }
+.tix-ticket-form thead th,
 .tix-order-summary thead th,
 .tix-tickets-list thead th {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 300;
   padding: 16px 24px;
 }
+.tix-ticket-form th,
+.tix-ticket-form td,
 .tix-order-summary th,
 .tix-order-summary td,
 .tix-tickets-list th,
