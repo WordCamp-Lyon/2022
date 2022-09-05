@@ -361,6 +361,8 @@ input[type=submit][disabled] {
   display: none;
 }
 
+.tix-left,
+.tix-right,
 tr[class^=tix-row] td {
   padding: 16px 24px;
 }
