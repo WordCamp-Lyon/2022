@@ -729,14 +729,14 @@ main.wp-block-group .wp-block-cover.alignfull:first-child {
   margin-top: 0;
 }
 
-.single-session .wp-block-post-title + .wp-block-post-featured-image {
+.single-wcb_session .wp-block-post-title + .wp-block-post-featured-image {
   margin-top: 80px;
   margin-bottom: -300px;
 }
-.single-session .wp-block-post-content {
+.single-wcb_session .wp-block-post-content {
   padding-top: 80px;
 }
-.single-session .session-categories-links {
+.single-wcb_session .session-categories-links {
   display: none;
 }
 
