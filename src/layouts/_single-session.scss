@@ -1,0 +1,15 @@
+.single-session {
+
+  .wp-block-post-title + .wp-block-post-featured-image {
+    margin-top: 80px;
+    margin-bottom: -300px;
+  }
+
+  .wp-block-post-content {
+    padding-top: 80px;
+  }
+
+  .session-categories-links{
+    display: none;
+  }
+}
