@@ -1,0 +1,14 @@
+@import "../mixins/typography";
+
+.wordcamp-schedule a {
+  text-decoration: underline;
+}
+
+.wordcamp-schedule__day {
+  background-color: transparent;
+}
+
+.wordcamp-schedule__column-header {
+  @include font-headings();
+  @include small();
+}

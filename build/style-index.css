@@ -587,6 +587,20 @@ tr[class^=tix-row] td {
   border: none;
 }
 
+.wordcamp-schedule a {
+  text-decoration: underline;
+}
+
+.wordcamp-schedule__day {
+  background-color: transparent;
+}
+
+.wordcamp-schedule__column-header {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 .admin-bar header.wp-block-template-part,
 .admin-bar #site-header {
   top: 32px;
