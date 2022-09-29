@@ -143,6 +143,7 @@ textarea {
   min-height: 200px;
   display: block;
   width: 100%;
+  font-family: "Poppins", sans-serif;
 }
 
 input[type=submit] {
