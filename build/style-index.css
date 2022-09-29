@@ -1,6 +1,7 @@
 /*!***************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
   \***************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -736,6 +737,11 @@ main.wp-block-group .wp-block-cover.alignfull:first-child {
   margin-top: 0;
 }
 
+.single-wcb_session {
+  /**
+   * Notice: Avez vous participé à cette session ? Proposer un retour.
+   */
+}
 .single-wcb_session .wp-block-wordcamp-session-date + .wp-block-wordcamp-session-speakers {
   text-align: center;
   font-family: "Space Grotesk", sans-serif;
@@ -745,6 +751,12 @@ main.wp-block-group .wp-block-cover.alignfull:first-child {
 }
 .single-wcb_session .session-categories-links {
   display: none;
+}
+.single-wcb_session .session-categories-links + p {
+  background-color: rgba(255, 37, 44, 0.1);
+  border: none;
+  margin: 0;
+  padding: 16px 24px;
 }
 
 .home .wp-block-post-excerpt,
