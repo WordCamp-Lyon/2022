@@ -14,3 +14,7 @@
   @include font-headings();
   @include small();
 }
+
+.wordcamp-schedule__session-title + p {
+  text-align: left;
+}
