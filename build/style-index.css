@@ -141,6 +141,8 @@ select {
 textarea {
   resize: none;
   min-height: 200px;
+  display: block;
+  width: 100%;
 }
 
 input[type=submit] {
