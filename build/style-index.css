@@ -574,6 +574,11 @@ tr[class^=tix-row] td {
   margin: 0;
 }
 
+.speaker-feedback__notice {
+  background-color: rgba(255, 37, 44, 0.1);
+  border: none;
+}
+
 .admin-bar header.wp-block-template-part,
 .admin-bar #site-header {
   top: 32px;
@@ -722,6 +727,17 @@ main.wp-block-group .wp-block-cover.alignfull:first-child {
 }
 .single section.wp-block-group + footer.wp-block-template-part {
   margin-top: 0;
+}
+
+.single-session .wp-block-post-title + .wp-block-post-featured-image {
+  margin-top: 80px;
+  margin-bottom: -300px;
+}
+.single-session .wp-block-post-content {
+  padding-top: 80px;
+}
+.single-session .session-categories-links {
+  display: none;
 }
 
 .home .wp-block-post-excerpt,
