@@ -1,0 +1,17 @@
+@import "../mixins/colors";
+@import "../mixins/typography";
+
+.single-wcb_speaker {
+
+  .wp-block-post-content {
+    padding-top: 0;
+  }
+
+  .session-categories-links {
+    display: none;
+  }
+
+  .entry-content .speaker-avatar {
+    display: none;
+  }
+}
