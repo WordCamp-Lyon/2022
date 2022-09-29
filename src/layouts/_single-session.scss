@@ -2,18 +2,13 @@
 
 .single-wcb_session {
 
-  .wp-block-post-title + .wp-block-post-featured-image {
-    margin-top: 80px;
-    margin-bottom: -300px;
-  }
-
   .wp-block-wordcamp-session-date + .wp-block-wordcamp-session-speakers {
     text-align: center;
     @include font-headings();
   }
 
   .wp-block-post-content {
-    padding-top: 80px;
+    padding-top: 0;
   }
 
   .session-categories-links {
