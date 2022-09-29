@@ -14,14 +14,3 @@
   @include font-headings();
   @include small();
 }
-
-.wordcamp-schedule__time-slot-header.is-empty{
-
-  &::before{
-    content:'';
-    position: absolute;
-    left: 0;
-    width: 100%;
-    background-color: $gray;
-  }
-}
