@@ -740,6 +740,10 @@ main.wp-block-group .wp-block-cover.alignfull:first-child {
   margin-top: 80px;
   margin-bottom: -300px;
 }
+.single-wcb_session .wp-block-wordcamp-session-date + .wp-block-wordcamp-session-speakers {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+}
 .single-wcb_session .wp-block-post-content {
   padding-top: 80px;
 }
