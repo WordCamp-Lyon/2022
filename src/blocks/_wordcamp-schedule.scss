@@ -15,6 +15,13 @@
   @include small();
 }
 
-.wordcamp-schedule__session-title + p {
-  text-align: left;
+.wordcamp-schedule__session {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  p {
+    margin: 0;
+  }
 }

@@ -602,8 +602,14 @@ tr[class^=tix-row] td {
   line-height: 1.5;
 }
 
-.wordcamp-schedule__session-title + p {
-  text-align: left;
+.wordcamp-schedule__session {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.wordcamp-schedule__session p {
+  margin: 0;
 }
 
 .admin-bar header.wp-block-template-part,
