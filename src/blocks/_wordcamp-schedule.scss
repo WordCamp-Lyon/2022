@@ -1,14 +1,27 @@
 @import "../mixins/typography";
+@import "../mixins/colors";
 
 .wordcamp-schedule a {
   text-decoration: underline;
 }
 
 .wordcamp-schedule__day {
+  position: relative;
   background-color: transparent;
 }
 
 .wordcamp-schedule__column-header {
   @include font-headings();
   @include small();
+}
+
+.wordcamp-schedule__time-slot-header.is-empty{
+
+  &::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: $gray;
+  }
 }
