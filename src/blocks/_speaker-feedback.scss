@@ -1,0 +1,7 @@
+@import '../mixins/colors';
+@import '../mixins/button';
+
+.speaker-feedback__notice {
+  background-color: rgba($red, .1);
+  border: none;
+}
