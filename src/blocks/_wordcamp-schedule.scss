@@ -41,6 +41,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 }
 
 .wordcamp-schedule__time-slot-header {
+  box-shadow: none;
 
   &.is-empty {
     &::before {
@@ -67,4 +68,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     height: 100%;
     z-index: -1;
   }
+}
+
+
+.wordcamp-schedule__session {
+  box-shadow: 0 0 1px 1px rgba(251,251,252,.92);
 }
