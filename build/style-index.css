@@ -612,7 +612,7 @@ tr[class^=tix-row] td {
   margin: 0;
 }
 
-.is-column-time {
+body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__column-header.is-column-time {
   display: none;
 }
 

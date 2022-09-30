@@ -26,7 +26,9 @@
   }
 }
 
-.is-column-time{
-  display: none;
+body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__column-header {
+  &.is-column-time {
+    display: none;
+  }
 }
 
