@@ -620,12 +620,22 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   margin-top: 100px;
 }
 
-.wordcamp-schedule__time-slot-header {
+.wordcamp-schedule__session-title + p {
+  color: #FF252C;
+}
+
+.wordcamp-schedule__time-slot-header.is-empty::before {
   color: #FFFFFF;
+  background: #eee;
+}
+.wordcamp-schedule__time-slot-header.has-sessions {
+  color: #FFFFFF;
+}
+.wordcamp-schedule__time-slot-header.has-sessions::before {
+  background-color: #FF252C;
 }
 .wordcamp-schedule__time-slot-header::before {
   content: "";
-  background-color: #FF252C;
   display: block;
   position: absolute;
   top: 0;

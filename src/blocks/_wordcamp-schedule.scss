@@ -36,12 +36,29 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   margin-top: 100px;
 }
 
+.wordcamp-schedule__session-title + p {
+  color: $red;
+}
+
 .wordcamp-schedule__time-slot-header {
-  color: $white;
+
+  &.is-empty {
+    &::before {
+      color: $white;
+      background: #eee;
+    }
+  }
+
+  &.has-sessions {
+    color: $white;
+
+    &::before {
+      background-color: $red;
+    }
+  }
 
   &::before {
     content: '';
-    background-color: $red;
     display: block;
     position: absolute;
     top: 0;
@@ -51,4 +68,3 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     z-index: -1;
   }
 }
-
