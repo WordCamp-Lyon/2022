@@ -653,6 +653,10 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   box-shadow: 0 0 1px 1px rgba(251, 251, 252, 0.92);
 }
 
+.is-spanning-all-tracks {
+  align-items: center;
+}
+
 .admin-bar header.wp-block-template-part,
 .admin-bar #site-header {
   top: 32px;
