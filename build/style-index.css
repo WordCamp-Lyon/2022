@@ -612,6 +612,10 @@ tr[class^=tix-row] td {
   margin: 0;
 }
 
+.is-column-time {
+  display: none;
+}
+
 .admin-bar header.wp-block-template-part,
 .admin-bar #site-header {
   top: 32px;
