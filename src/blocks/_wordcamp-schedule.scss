@@ -20,6 +20,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  background-color: $white;
 
   p {
     margin: 0;
@@ -86,6 +87,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 .wordcamp-schedule-custom .wordcamp-schedule__day h3 {
   position: relative;
   color: transparent;
+  margin-bottom: -1rem;
 }
 
 

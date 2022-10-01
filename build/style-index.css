@@ -607,6 +607,7 @@ tr[class^=tix-row] td {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  background-color: #FFFFFF;
 }
 .wordcamp-schedule__session p {
   margin: 0;
@@ -661,6 +662,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 .wordcamp-schedule-custom .wordcamp-schedule__day h3 {
   position: relative;
   color: transparent;
+  margin-bottom: -1rem;
 }
 
 .wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:after {
