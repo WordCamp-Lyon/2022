@@ -66,7 +66,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
   }
 }
 
@@ -83,11 +83,16 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   align-items: center;
 }
 
+.wordcamp-schedule-custom .wordcamp-schedule__day h3 {
+  position: relative;
+  color: transparent;
+}
+
 
 .wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:after {
   position: relative;
-  background-color: $red;
-  top: -16px;
+  color: $white;
+  top: 0;
 }
 
 .wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(1)::after {
