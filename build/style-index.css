@@ -658,6 +658,88 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   align-items: center;
 }
 
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:after {
+  position: relative;
+  background-color: #fff;
+  top: -16px;
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(1)::after {
+  content: "09:00";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(2)::after {
+  content: "09:45";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(3)::after {
+  content: "10:00";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(5)::after {
+  content: "10:40";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(7)::after {
+  content: "11:00";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(8)::after {
+  content: "11:35";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(9)::after {
+  content: "11:50";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(11)::after {
+  content: "12:30";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(12)::after {
+  content: "12:45";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(13)::after {
+  content: "14:00";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(15)::after {
+  content: "14:40";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(17)::after {
+  content: "15:00";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(19)::after {
+  content: "15:40";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(20)::after {
+  content: "15:55";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(21)::after {
+  content: "16:10";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(23)::after {
+  content: "16:50";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(25)::after {
+  content: "17:10";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(27)::after {
+  content: "17:30";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(29)::after {
+  content: "18:10";
+}
+
 .admin-bar header.wp-block-template-part,
 .admin-bar #site-header {
   top: 32px;
