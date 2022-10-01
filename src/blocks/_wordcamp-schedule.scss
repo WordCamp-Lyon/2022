@@ -37,6 +37,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 }
 
 .wordcamp-schedule__session-title + p {
+  display: none;
   color: $red;
 }
 
