@@ -92,7 +92,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 .wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:after {
   position: relative;
   color: $white;
-  top: 0;
+  top: -1rem;
 }
 
 .wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(1)::after {
