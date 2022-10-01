@@ -25,6 +25,8 @@ Le fichier `style.scss` repertorie tous les styles du thème.
 
 ## Contribution
 
+Node Version : 16.17.0
+
 Pour contribuer aux améliorations du thème, nous nous basons sur les maquettes suivantes : https://www.figma.com/file/bIlFrsWLSRVol7mroP8RLN/WCLyon?node-id=80%3A331
 
 Pour mettre en place l'environnement de développement, il suffit d'utiliser la commande suivante : 
