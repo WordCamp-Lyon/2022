@@ -665,6 +665,11 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   margin-bottom: -1rem;
 }
 
+h3.wordcamp-schedule__time-slot-header {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:after {
   position: relative;
   color: #FFFFFF;
