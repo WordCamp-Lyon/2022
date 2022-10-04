@@ -867,6 +867,10 @@ main.wp-block-group .wp-block-cover.alignfull:first-child {
   margin-top: 0;
 }
 
+.single-post .wp-block-post-content {
+  padding-top: 0 !important;
+}
+
 .single-wcb_session {
   /**
    * Notice: Avez vous participé à cette session ? Proposer un retour.
