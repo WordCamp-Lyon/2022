@@ -159,14 +159,22 @@ h3.wordcamp-schedule__time-slot-header {
 }
 
 .wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(15)::after {
-  content: "16:35";
+  content: "15:30";
 }
 
 .wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(16)::after {
-  content: "17:25";
+  content: "15:45";
 }
 
 .wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(17)::after {
+  content: "16:35";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(18)::after {
+  content: "17:25";
+}
+
+.wordcamp-schedule-custom .wordcamp-schedule__day h3.wordcamp-schedule__time-slot-header:nth-of-type(19)::after {
   content: "19:30";
 }
 
