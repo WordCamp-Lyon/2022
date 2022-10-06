@@ -6,6 +6,10 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, min-content);
   gap: var(--wp--style--block-gap);
+
+  &.is-flex-container {
+    display: grid;
+  }
 }
 
 .wp-block-post {
