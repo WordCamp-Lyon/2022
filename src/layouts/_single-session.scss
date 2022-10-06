@@ -14,9 +14,11 @@
 
   .session-categories-links {
     //display: none;
+    max-width: 938px;
 
     a {
       pointer-events: none;
+      text-decoration: none;
     }
   }
 
