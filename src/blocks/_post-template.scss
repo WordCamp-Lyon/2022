@@ -10,7 +10,7 @@
   &.is-flex-container {
     display: grid;
 
-    &.columns-3 > li {
+    &.&.columns-3 > li {
       width: 100%;
     }
   }
