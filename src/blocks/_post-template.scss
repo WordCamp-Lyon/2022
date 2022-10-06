@@ -20,7 +20,6 @@
   @include font-headings();
   position: relative;
   margin: 0;
-  grid-column: 3 / -1;
 
   a::before {
     content: '';
