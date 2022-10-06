@@ -13,8 +13,9 @@
   }
 
   .session-categories-links {
-    //display: none;
-    max-width: 938px;
+    @include font-headings();
+    @include small();
+    display: block;
 
     a {
       pointer-events: none;
