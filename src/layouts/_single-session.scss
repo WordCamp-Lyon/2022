@@ -13,7 +13,11 @@
   }
 
   .session-categories-links {
-    display: none;
+    //display: none;
+
+    a {
+      pointer-events: none;
+    }
   }
 
   /**
