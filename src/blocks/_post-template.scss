@@ -7,10 +7,10 @@
   grid-template-rows: repeat(4, min-content);
   gap: var(--wp--style--block-gap);
 
-  &.is-flex-container {
+  &.is-flex-container.is-flex-container {
     display: grid;
 
-    &.&.columns-3 > li {
+    &.columns-3 > li {
       width: 100%;
     }
   }
