@@ -88,3 +88,7 @@ tr[class^="tix-row"] td {
     @include p();
   }
 }
+
+.page-slug-billetterie #tix {
+  display: none;
+}
