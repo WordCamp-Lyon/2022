@@ -452,10 +452,6 @@ tr[class^=tix-row] td {
   }
 }
 
-.page-slug-billetterie #tix {
-  display: none;
-}
-
 .wordcamp-sponsors img {
   height: auto;
 }
